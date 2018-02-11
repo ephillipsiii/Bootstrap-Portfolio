@@ -1,0 +1,48 @@
+.social{
+    width: 30px;
+    height: 30px;
+}
+
+.pictures{
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+    padding: 5px;
+    float:left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+    width: 960px;
+    margin: auto;
+    background: url("assets/togography.png");
+}
+
+.navbar-header{
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+}
+
+.navbar navbar-default{
+    background-color: #ffffff;
+}
+
+.panel-heading{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+.footer{
+    background-color: #666666;
+    margin: auto;
+}
+
+.text{
+    float: right;
+}
